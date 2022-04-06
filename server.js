@@ -74,5 +74,5 @@ app.post("/twitter/message", async(req, res) => {
     console.log(used)
 });
 
-
+const PORT = process.env.PORT || 5000
 app.listen(process.env.PORT || PORT, () => {console.log("Server started on port ${PORT}")})
