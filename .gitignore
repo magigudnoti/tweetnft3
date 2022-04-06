@@ -1,0 +1,5 @@
+#hide cred
+.env
+
+#hide node mod
+node_modules
